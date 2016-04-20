@@ -1,2 +1,5 @@
+install: ./install-dependencies.sh
 language: c
+script: chmod +x install-dependencies.sh
 script: make && make test
+
