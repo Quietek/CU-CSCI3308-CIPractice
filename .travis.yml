@@ -1,7 +1,5 @@
 sudo: required
-before_install:
-sudo apt-get -qq update
-sudo apt-get install check
+before_install: sudo apt-get -qq update && sudo apt-get install check
 language: c
 script: make && make test
 
