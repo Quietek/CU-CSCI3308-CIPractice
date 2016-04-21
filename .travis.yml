@@ -1,5 +1,6 @@
-install: ./install-dependencies.sh
+before_install:
+	sudo apt-get -qq update
+	sudo apt-get install check
 language: c
-script: sudo chmod +x install-dependencies.sh
 script: make && make test
 
