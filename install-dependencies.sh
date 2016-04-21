@@ -1,2 +1,2 @@
-#!/bin/bash/env sh
+#!/bin/bash
 sudo apt-get install check
